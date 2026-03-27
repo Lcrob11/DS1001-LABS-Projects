@@ -1,6 +1,6 @@
 #!/workspaces/DS1001-LABS-Projects/LukeRobinson_env/bin/python3
 import sys
-from numpy.f2py.f2py2e import main
+from charset_normalizer.cli import cli_detect
 if __name__ == '__main__':
     sys.argv[0] = sys.argv[0].removesuffix('.exe')
-    sys.exit(main())
+    sys.exit(cli_detect())
